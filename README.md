@@ -1,51 +1,51 @@
-"# 智慧品質虛擬量測系統
+"# Intelligent Quality Virtual Metrology System
 
 ## MiRLE Intelligent-Quality Virtual Metrology
 
-可將離線且延遲之品質抽檢轉變為線上且即時之品質全檢。是一種基於設備感測的數據，並且無需透過物理量測來推測產品製造質量的方法。
+Transform offline and delayed quality sampling inspection into online and real-time full quality inspection. This is a method based on equipment sensor data that infers product manufacturing quality without the need for physical measurement.
 
-- **【收集因】** 收集會影響品管項目之品質的所有重要特徵。
-- **【收集果】** 具備實際量測儀器，且抽測完後能將實際量測值以電子傳遞(如網路等)之方式，送到 MI-QVM 系統。
-- **【物料追蹤】** 具備物料追蹤之機制以便能建立上述兩項資訊的因果關係。
+- **【Collect Causes】** Collect all important features that affect the quality of quality control items.
+- **【Collect Results】** Equipped with actual measurement instruments, and after sampling inspection, the actual measurement values can be electronically transmitted (such as via network) to the MI-QVM system.
+- **【Material Tracking】** Equipped with a material tracking mechanism to establish the causal relationship between the above two types of information.
 
-![MI-QVM 流程圖](assets/miqvm-01.svg)
-
----
-
-## 如何提升產能與產量
-
-- **產量**：在高投資成本下，如何保持生產設備全天候24小時正常運轉並維持高品質產量非常重要。
-- **產能**：為了節省成本，各行業皆使用 "抽樣檢驗"進行質量監控，但無法實現全方位的質量控制。若要經濟地實現全檢之目標，VM技術便有存在之必要。
-
-![產能產量](assets/miqvm-02.svg)
+![MI-QVM Process Diagram](assets/miqvm-01.svg)
 
 ---
 
-## MI-QVM 系統架構
+## How to Improve Capacity and Yield
 
-- **資料品質監控模組**：經確保製程資料品質(DQIX)與量測資料品質(DQIy)的正常數據，才能送至預測模型進行估測，並調校或重新訓練預測模型，以增加推估模型的準確度。
-- **MI-QVM核心演算法**：採用神經網路等演算法進行建立AI模型，並透過 MI-QVM 系統自主訓練機制，決定模型的最適權重組合，以建立品質預測模型。
-- **信心指標**：利用兩個核心演算法的預測結果來推估預測的可靠性評估。
-- **整體相似度指標**：比較當前製程資料和歷史資料的相似性，評估當前製程是否發生偏移。
+- **Yield**: Under high investment costs, it is very important to keep production equipment running 24 hours a day and maintain high-quality yield.
+- **Capacity**: To save costs, all industries use "sampling inspection" for quality monitoring, but it cannot achieve comprehensive quality control. If the goal of full inspection is to be achieved economically, VM technology is necessary.
 
-![系統架構](assets/miqvm-03.svg)
+![Capacity and Yield](assets/miqvm-02.svg)
 
 ---
 
-## 導入效益
+## MI-QVM System Architecture
 
-- 對產品100%品質全檢。
-- 降低品質檢驗抽測率並減少量測成本。
-- 減少因加工異常的產品損失。
-- 品質預測零等待。
+- **Data Quality Monitoring Module**: Only normal data that ensures process data quality (DQIX) and measurement data quality (DQIy) can be sent to the prediction model for estimation, and calibrate or retrain the prediction model to increase the accuracy of the prediction model.
+- **MI-QVM Core Algorithm**: Uses neural networks and other algorithms to build AI models, and through the MI-QVM system's autonomous training mechanism, determines the optimal weight combination of the model to establish a quality prediction model.
+- **Confidence Index**: Uses the prediction results of two core algorithms to estimate the reliability assessment of predictions.
+- **Overall Similarity Index**: Compares the similarity between current process data and historical data to assess whether the current process has deviated.
+
+![System Architecture](assets/miqvm-03.svg)
 
 ---
 
-## AVM 不僅僅是一個技術，它是一個全面優化企業的戰略工具
+## Implementation Benefits
 
-- **ESG 報告與環保責任**：實現碳排放目標，贏得更多社會與市場的信任。
-- **製程可視化**：打破資訊孤島，實現從生產到管理的全面透明化。
-- **數位轉型的基礎**：AVM 是未來智慧工廠的核心，協助您在數位時代中搶佔先機。
+- 100% full quality inspection of products.
+- Reduce quality inspection sampling rate and reduce measurement costs.
+- Reduce product losses due to processing abnormalities.
+- Zero waiting time for quality prediction.
+
+---
+
+## AVM is Not Just a Technology, It is a Strategic Tool for Comprehensive Enterprise Optimization
+
+- **ESG Reporting and Environmental Responsibility**: Achieve carbon emission goals and gain more trust from society and the market.
+- **Process Visualization**: Break down information silos and achieve full transparency from production to management.
+- **Foundation of Digital Transformation**: AVM is the core of future smart factories, helping you seize opportunities in the digital age.
 
 ---
 
