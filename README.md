@@ -39,12 +39,12 @@ Transform offline and delayed quality sampling inspection into online and real-t
 
 ---
 
-## AVM is Not Just a Technology, It is a Strategic Tool for Comprehensive Enterprise Optimization
+## QVM is Not Just a Technology, It is a Strategic Tool for Comprehensive Enterprise Optimization
 
 - **ESG Reporting and Environmental Responsibility**: Achieve carbon emission goals and gain more trust from society and the market.
 - **Process Visualization**: Break down information silos and achieve full transparency from production to management.
-- **Foundation of Digital Transformation**: AVM is the core of future smart factories, helping you seize opportunities in the digital age.
+- **Foundation of Digital Transformation**: QVM is the core of future smart factories, helping you seize opportunities in the digital age.
 
 ---
 
-Copyright © 2024 Mirle Group" 
+Copyright © 2024 Mirle Group
