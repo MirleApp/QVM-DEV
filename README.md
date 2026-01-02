@@ -1,5 +1,3 @@
-"# Intelligent Quality Virtual Metrology System
-
 ## MiRLE Intelligent-Quality Virtual Metrology
 
 Transform offline and delayed quality sampling inspection into online and real-time full quality inspection. This is a method based on equipment sensor data that infers product manufacturing quality without the need for physical measurement.
